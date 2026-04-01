@@ -1,9 +1,7 @@
 # from streamlit_autorefresh import st_autorefresh
 import joblib
 
-# import spacy
 from datetime import datetime as dt
-from classifier import CombinedClassifier
 from bertclassifier import load_mentalbert, predict_mental_state
 import pandas as pd
 import streamlit as st
@@ -11,14 +9,8 @@ import json
 import os
 import plotly.express as px
 
-# st_autorefresh(interval=500, key="chatupdate")
-
 DB_FILE = "chat_db.json"
 
-# print("Combined model loading")
-# combined_model: CombinedClassifier = joblib.load("combined_model.joblib")
-# print("Combined model loaded")
-#
 print("Loading BERT model for classification")
 tokenizer, model = load_mentalbert()
 print("BERT model loaded")
