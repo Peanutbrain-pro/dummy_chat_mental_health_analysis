@@ -4,6 +4,8 @@ Clone the repository
 git clone https://github.com/Peanutbrain-pro/dummy_chat_mental_health_analysis.git
 cd dummy_chat_mental_health_analysis
 pip install -r requirements.txt
+
+streamlit run app.py
 ```
 
 drive link: https://drive.google.com/drive/folders/1B0RPXlIf0qHYor_gJWeIvD4bz7OfNy4F
