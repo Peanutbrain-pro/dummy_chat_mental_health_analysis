@@ -1,7 +1,7 @@
 # Installation
 Clone the repository
 ```bash
-git clone [https://github.com/Peanutbrain-pro/dummy_chat_mental_health_analysis.git](https://github.com/Peanutbrain-pro/dummy_chat_mental_health_analysis.git)
+git clone https://github.com/Peanutbrain-pro/dummy_chat_mental_health_analysis.git
 cd dummy_chat_mental_health_analysis
 pip install -r requirements.txt
 ```
